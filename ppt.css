@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+}
+.first{
+	color: #AA5042;
+	display: inline;
+}
+
+.navbar{
+    background-color: #AA5042;
+    margin-left: 900px;
+    display:inline-block;
+    border-top-left-radius: 15px ;
+    border-top-right-radius: 15px ;
+    padding: 15px 5px;
+}
+.navbar li{
+    list-style: none;
+    float: left;
+    margin: 3px 7px;
+}
+.navbar li a{
+    padding: 9px 6px;
+    text-decoration: none;
+    color: white;
+}
+nav li + li:before{
+    content: " | ";
+    color: rgb(83, 78, 78);
+    padding: 0;
+    position: relative;
+    top: -2px;
+}
+.navbar li a:hover{
+    text-decoration: underline white;
+}
